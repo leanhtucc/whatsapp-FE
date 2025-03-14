@@ -5,6 +5,7 @@ const nextConfig = {
   env: {
     NEXT_PUBLIC_ZEGO_APP_ID: "1400530468",
     NEXT_PUBLIC_ZEGO_SERVER_ID: "6c900411b139e06474344cb5bdfdeb51",
+    NEXT_PUBLIC_API_URL: "https://whatsapp-be-mv3r.onrender.com",
   },
   images: {
     domains: ["localhost"],
