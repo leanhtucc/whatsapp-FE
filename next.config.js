@@ -1,0 +1,14 @@
+/* eslint-disable no-undef */
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  reactStrictMode: true,
+  env: {
+    NEXT_PUBLIC_ZEGO_APP_ID: "1400530468",
+    NEXT_PUBLIC_ZEGO_SERVER_ID: "6c900411b139e06474344cb5bdfdeb51",
+  },
+  images: {
+    domains: ["localhost"],
+  },
+};
+
+module.exports = nextConfig;
